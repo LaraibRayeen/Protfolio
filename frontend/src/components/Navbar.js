@@ -25,33 +25,33 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item my-0  mx-2  position-relative">
-          <a className="nav-link active link-dark fs-5 mylink" aria-current="page" href="#Home">
+        <li className="nav-item my-0  mx-2  position-relative ">
+          <a className="nav-link active link-dark fs-5 mylink  h3 " aria-current="page" href="#Home">
             Home
           </a>
         </li>
         <li className="nav-item my-0  mx- position-relative">
-          <a className="nav-link link-dark fs-5  mylink" href="#about">
+          <a className="nav-link link-dark fs-5  mylink h3" href="#about">
             About
           </a>
         </li>
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link link-dark fs-5 mylink" href="#services">
+          <a className="nav-link link-dark fs-5 mylink  h3" href="#services">
             Services
           </a>
         </li>
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link link-dark fs-5 mylink" href="#portfolio">
+          <a className="nav-link link-dark fs-5 mylink h3" href="#portfolio">
             Portfolio
           </a>
         </li> 
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link link-dark fs-5 mylink" href="#contect">
+          <a className="nav-link link-dark fs-5 mylink h3" href="#contect">
             Contect
           </a>
         </li>
-        <li className="nav-item mt-3 mt-lg-0 my-0  mx-5">
-          <a  type="button" className="btn btn-light btn-outline-dark " data-mdb-ripple-color="dark" href="#">
+        <li className="nav-item mt-4 mt-lg-0   mx-2">
+          <a  type="button" className="btn btn-outline-dark mylink" data-mdb-ripple-color="dark" href="#">
             Hire me
           </a>
         </li>
