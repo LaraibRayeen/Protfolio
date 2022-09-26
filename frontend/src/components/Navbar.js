@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
      
-     <nav className="navbar navbar-expand-lg fixed-top">
+     <nav className="navbar navbar-expand-lg fixed-top ">
   <div className="container">
     <a className="navbar-brand" href="#">
       <img src={logo} className="img-fluid w-75 h-auto d-inline-block"></img>
@@ -23,35 +23,35 @@ const Navbar = () => {
     >
       <i className="fa-solid fa-bars-staggered"/>
     </button>
-    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item my-0  mx-2">
-          <a className="nav-link active" aria-current="page" href="#Home">
+        <li className="nav-item my-0  mx-2  position-relative">
+          <a className="nav-link active link-dark fs-5 mylink" aria-current="page" href="#Home">
             Home
           </a>
         </li>
-        <li className="nav-item my-0  mx-2">
-          <a className="nav-link " href="#about">
+        <li className="nav-item my-0  mx- position-relative">
+          <a className="nav-link link-dark fs-5  mylink" href="#about">
             About
           </a>
         </li>
-        <li className="nav-item my-0  mx-2">
-          <a className="nav-link " href="#services">
+        <li className="nav-item my-0  mx-2 position-relative">
+          <a className="nav-link link-dark fs-5 mylink" href="#services">
             Services
           </a>
         </li>
-        <li className="nav-item my-0  mx-2">
-          <a className="nav-link" href="#portfolio">
+        <li className="nav-item my-0  mx-2 position-relative">
+          <a className="nav-link link-dark fs-5 mylink" href="#portfolio">
             Portfolio
           </a>
-        </li>
-        <li className="nav-item my-0  mx-2">
-          <a className="nav-link" href="#contect">
+        </li> 
+        <li className="nav-item my-0  mx-2 position-relative">
+          <a className="nav-link link-dark fs-5 mylink" href="#contect">
             Contect
           </a>
         </li>
         <li className="nav-item mt-3 mt-lg-0 my-0  mx-5">
-          <a  type="button" className="btn btn-light btn-outline-dark" data-mdb-ripple-color="dark" href="#">
+          <a  type="button" className="btn btn-light btn-outline-dark " data-mdb-ripple-color="dark" href="#">
             Hire me
           </a>
         </li>
