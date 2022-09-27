@@ -1,6 +1,5 @@
 .mylink:hover{
-
-    color:#22619f;
+ color:#22619f;
 }
 .mylink::after{
     content:'';
@@ -9,9 +8,14 @@
     height:2px;
     background-color:#22619f;
     transition:width .3s;
-
 }
  .mylink:hover::after{
  width:100%;
  transition: width .3s;
- }
+}
+.banner{
+    width:100%;
+    height:auto;
+    min-height:650px;
+    
+}
