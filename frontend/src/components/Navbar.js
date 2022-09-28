@@ -3,7 +3,17 @@ import { Link } from "react-router-dom";
 import './Navbar.css'
 import logo from '../Image/Screenshot.png'
 const Navbar = () => {
-  return (
+   let navbar = document.querySelectorAll(".nav-link")
+   let navCollapse = document.querySelector(".navbar-collapse.collapse")
+   navbar.forEach(function(a){
+    a.addEventListener("click",function(){
+      navCollapse.classList.remove("show")
+    })
+   })
+
+     
+
+  return (  
     <>
      
      <nav className="navbar navbar-expand-lg  ">
@@ -23,10 +33,10 @@ const Navbar = () => {
     >
       <i className="fa-solid fa-bars-staggered"/>
     </button>
-    <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
+    <div className="collapse navbar-collapse justify-content-end text-sm-center" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item my-0  mx-2  position-relative ">
-          <a className="nav-link active link-dark fs-5 mylink  h3 " aria-current="page" href="#Home">
+          <a className="nav-link active link-dark fs-5 mylink  h3  "   aria-current="page" href="#Home">
             Home
           </a>
         </li>
