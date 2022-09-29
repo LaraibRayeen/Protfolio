@@ -14,7 +14,7 @@ const Banner = () => {
           {" "}
           I'm Laraib Rayeen <br />
           <span className='text-primary'> Full Stack Developer. </span>
-          <br /> Based in INDIA 🕳.  {" "}
+          <br /> Based in INDIA 🕳  {" "}
         </h1>
         
         <a  type="button" className="btn btn-outline-dark mylink" data-mdb-ripple-color="dark" href="#">

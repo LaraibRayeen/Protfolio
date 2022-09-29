@@ -36,12 +36,12 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end text-sm-center" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item my-0  mx-2  position-relative ">
-          <a className="nav-link active link-dark fs-5 mylink  h3  "   aria-current="page" href="Banner">
+          <a className="nav-link active link-dark fs-5 mylink  h3  "   aria-current="page" href="#Banner">
             Home
           </a>
         </li>
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link  link-dark fs-5  mylink h3" href="#about">
+          <a className="nav-link  link-dark fs-5  mylink h3" href="#About">
             About
           </a>
         </li>

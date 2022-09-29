@@ -25,3 +25,16 @@
     padding: 200px 0 100px 0;
     
 }
+.subtitle{
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size:16px;
+    margin-bottom:12px;
+    background-image: linear-gradient( to right, #460a1d, blue,rgb(18, 221, 160));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent
+
+
+}
