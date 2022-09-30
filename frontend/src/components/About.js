@@ -20,14 +20,19 @@ const About = () => {
               <h2> About Me</h2>
               <p>
                 I am Full stack developer who loves designing and building
-                products for the Web. I am tech enthusiast,  Ever since I enrolled myself in Computer
-                Engineering, I have been studying and upskilling myself
-                constantly. I believe in learning and growing every single day.
+                products for the Web. I am tech enthusiast, Ever since I
+                enrolled myself in Computer Engineering, I have been studying
+                and upskilling myself constantly. I believe in learning and
+                growing every single day.
               </p>
             </div>
             <div className="pt-4">
               <>
-                <ul className="nav nav-tabs mb-3 justify-content-center justify-content-lg-between" id="myTab0" role="tablist">
+                <ul
+                  className="nav nav-tabs mb-3 justify-content-center justify-content-lg-between"
+                  id="myTab0"
+                  role="tablist"
+                >
                   <li className="nav-item" role="presentation">
                     <button
                       className="nav-link active"
@@ -39,7 +44,7 @@ const About = () => {
                       aria-controls="skill"
                       aria-selected="true"
                     >
-                      Skills
+                     Skills
                     </button>
                   </li>
 
@@ -72,6 +77,20 @@ const About = () => {
                       education
                     </button>
                   </li>
+                  <li className="nav-item" role="presentation">
+                    <button
+                      className="nav-link"
+                      id="certification-tab0"
+                      data-mdb-toggle="tab"
+                      data-mdb-target="#certification0"
+                      type="button"
+                      role="tab"
+                      aria-controls="certification"
+                      aria-selected="false"
+                    >
+                      certification
+                    </button>
+                  </li>
                 </ul>
 
                 <div className="tab-content" id="myTabContent0">
@@ -81,7 +100,85 @@ const About = () => {
                     role="tabpanel"
                     aria-labelledby="skill"
                   >
-                    Tab 1 content.
+                    <div className="single-progress">
+                      <h6 className="d-flex align-items-start" >javascript</h6>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: "80%" }}
+                          aria-valuenow={25}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        />
+                      </div>
+                      {/* <span className="label">80%</span> */}
+                    </div>
+                    
+                    <div className="single-progress">
+                      <h6 className="d-flex align-items-start">c++</h6>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: "75%" }}
+                          aria-valuenow={25}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        />
+                      </div>
+                      {/* <span className="label">75%</span> */}
+                    </div>
+
+                    <div className="single-progress">
+                      <h6 className="d-flex align-items-start">React.js</h6>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: "85%" }}
+                          aria-valuenow={25}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        />
+                      </div>
+                      {/* <span className="label">85%</span> */}
+                    </div>
+                    <div className="single-progress">
+                      <h6 className="d-flex align-items-start">Node.js</h6>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: "75%" }}
+                          aria-valuenow={25}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        />
+                      </div>
+                      {/* <span className="label">75%</span> */}
+                    </div>
+                    <div className="single-progress">
+                      <h6 className="d-flex align-items-start">MongoDb</h6>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: "80%" }}
+                          aria-valuenow={25}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        />
+                      </div>
+                      {/* <span className="label">80%</span> */}
+                      
+                    </div>
+                    
+                    
+
+  
+
+
                   </div>
                   <div
                     className="tab-pane fade"
@@ -89,7 +186,16 @@ const About = () => {
                     role="tabpanel"
                     aria-labelledby="profile-tab0"
                   >
-                    Tab 2 content
+                
+                    <ul className="text-start ps-0">
+                      <li> <strong>Full stack web development internship</strong> 
+                        <div> Digipodium , Lucknow, UP. </div>
+                        07/2022-8/2022
+                    
+                      </li>
+
+                    </ul>
+
                   </div>
                   <div
                     className="tab-pane fade"
@@ -97,7 +203,48 @@ const About = () => {
                     role="tabpanel"
                     aria-labelledby="contact-tab0"
                   >
-                    Tab 3 content
+                    <ul className="text-start ps-0">
+                      <li> <strong>Computer Science And Engineering(B.Tech)</strong> 
+                        <div> Rajarshi Rananjay Sinh Institute Of Management & Technology , Amethi . </div>
+                        08/2019 – 07/2023
+                      </li>
+                      <li> <strong>12th science (state board)</strong> 
+                        <div> S.V.M. INTER COLLEGE  </div>
+                        06/2018 – 05/2019
+                      </li>
+                      <li> <strong>10th (state board)</strong> 
+                        <div> S.V.M. INTER COLLEGE  </div>
+                        6/2016–5/2017
+                      </li>
+                    
+
+                    </ul>
+                  </div>
+                  <div
+                    className="tab-pane fade"
+                    id="certification0"
+                    role="tabpanel"
+                    aria-labelledby="certification-tab0"
+                  >
+                     <ul className="text-start ps-0">
+                      <li> <strong> Developing Cloud App with Node.js 
+                          and React- (IBM)</strong> 
+                       
+                      </li>
+                      <li> <strong>
+                          Communication– ( TCS ION)
+                          </strong> 
+                       
+                      </li>
+                      <li> <strong>
+                          javascript– ( UDEMY)
+                          </strong> 
+                       
+                      </li>
+                     
+                    
+
+                    </ul>
                   </div>
                 </div>
               </>
