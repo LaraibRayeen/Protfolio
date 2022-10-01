@@ -2,7 +2,9 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Banner from './components/Banner'
 import About from './components/About'
+
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import Project from './components/Project';
 function App() {
   return (
   <>
@@ -11,6 +13,7 @@ function App() {
   <Navbar/>
   <Banner/>
   <About/>
+  <Project/>
   <Routes>
 
     <Route element={<About/>} path="About"/>

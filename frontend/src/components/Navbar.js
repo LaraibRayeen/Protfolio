@@ -45,14 +45,14 @@ const Navbar = () => {
             About
           </a>
         </li>
-        <li className="nav-item my-0  mx-2 position-relative">
+        {/* <li className="nav-item my-0  mx-2 position-relative">
           <a className="nav-link link-dark fs-5 mylink  h3" href="#services">
             Services
           </a>
-        </li>
+        </li> */}
         <li className="nav-item my-0  mx-2 position-relative">
           <a className="nav-link link-dark fs-5 mylink h3" href="#portfolio">
-            Portfolio
+            Project
           </a>
         </li> 
         <li className="nav-item my-0  mx-2 position-relative">

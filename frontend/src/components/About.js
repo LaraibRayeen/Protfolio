@@ -44,7 +44,9 @@ const About = () => {
                       aria-controls="skill"
                       aria-selected="true"
                     >
-                     Skills
+                     <h6>
+                      Skills
+                      </h6>
                     </button>
                   </li>
 
@@ -54,12 +56,12 @@ const About = () => {
                       id="profile-tab0"
                       data-mdb-toggle="tab"
                       data-mdb-target="#profile0"
-                      type="button"
+                      type="button" 
                       role="tab"
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                      experience
+                     <h6>experience</h6>
                     </button>
                   </li>
 
@@ -74,7 +76,7 @@ const About = () => {
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                      education
+                      <h6>education</h6>
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -88,7 +90,7 @@ const About = () => {
                       aria-controls="certification"
                       aria-selected="false"
                     >
-                      certification
+                      <h6>certification</h6>
                     </button>
                   </li>
                 </ul>
