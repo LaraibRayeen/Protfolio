@@ -5,10 +5,10 @@ import logo from '../Image/undraw.png'
 const Banner = () => {
   return (
    
-    <section className=" d-flex justify-content-center m-5" id="home">
+    <section className=" d-flex justify-content-center m-5" id="Home">
   <div className="container ">
     <div className="row">
-      <div className="col  p-5 text-center text-md-start ">
+      <div className="col  p-5  mt-5 text-center text-md-start ">
         <h5> WELCOME TO MY WORLD </h5>
         <h1>
           {" "}
@@ -21,7 +21,7 @@ const Banner = () => {
             Download Resume
           </a>
       </div >
-      <div  className='banner  col'>
+      <div  className='banner  col mt-5'>
 
       </div>
     </div>

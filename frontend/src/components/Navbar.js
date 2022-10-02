@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './Navbar.css'
-import logo from '../Image/Screenshot.png'
+import logo from '../Image/laraibLogo.jpg'
 const Navbar = () => {
    let navbar = document.querySelectorAll(".nav-link")
    let navCollapse = document.querySelector(".navbar-collapse.collapse")
@@ -16,7 +16,7 @@ const Navbar = () => {
   return (  
     <>
      
-     <nav className="navbar navbar-expand-lg  ">
+     <nav className="navbar navbar-expand-lg fixed-top  bg-light">
   <div className="container">
     <a className="navbar-brand" href="#">
       <img src={logo} className="img-fluid w-75 h-auto d-inline-block"></img>
@@ -36,7 +36,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end text-sm-center" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item my-0  mx-2  position-relative ">
-          <a className="nav-link active link-dark fs-5 mylink  h3  "   aria-current="page" href="#Banner">
+          <a className="nav-link active link-dark fs-5 mylink  h3  "   aria-current="page" href="#Home">
             Home
           </a>
         </li>
@@ -51,21 +51,21 @@ const Navbar = () => {
           </a>
         </li> */}
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link link-dark fs-5 mylink h3" href="#portfolio">
+          <a className="nav-link link-dark fs-5 mylink h3" href="#Project">
             Project
           </a>
         </li> 
         <li className="nav-item my-0  mx-2 position-relative">
-          <a className="nav-link link-dark fs-5 mylink h3" href="#contect">
+          <a className="nav-link link-dark fs-5 mylink h3" href="#Contect">
             Contect
           </a>
         </li>
-        <li className="nav-item mt-4 mt-lg-0   mx-2">
+        {/* <li className="nav-item mt-4 mt-lg-0   mx-2">
           <a  type="button" className="btn btn-outline-dark mylink" data-mdb-ripple-color="dark" href="#">
             Hire me
           </a>
         </li>
-       
+        */}
       </ul>
     </div>
   </div>

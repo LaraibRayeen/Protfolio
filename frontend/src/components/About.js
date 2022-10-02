@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const About = () => {
   return (
-    <section id="about" className="about_wap m-5 p-5">
+    <section id="About" className="about_wap m-5 p-5">
       <div className="comntainer">
         <div className="row justify-content-between align-item-center">
           <div className="col-lg-5 md-4 mb-lg-0">
@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className=" col-lg-7 ps-lg-5 text-center text-lg-start">
             <div className="m-3 my-lg-0">
-              <span className="subtitle"> My About Detail </span>
+              {/* <span className="subtitle"> My About Detail </span> */}
               <h2> About Me</h2>
               <p>
                 I am Full stack developer who loves designing and building
