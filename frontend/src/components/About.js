@@ -5,8 +5,21 @@ import "./Navbar.css";
 const About = () => {
   return (
     <section id="About" className="about_wap m-5 p-5">
-      <div className="comntainer">
+      <div className="container">
         <div className="row justify-content-between align-item-center">
+          <div classNAme="h-50"  style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+
           <div className="col-lg-5 md-4 mb-lg-0">
             <img
               src={profile}
@@ -44,9 +57,7 @@ const About = () => {
                       aria-controls="skill"
                       aria-selected="true"
                     >
-                     <h6>
-                      Skills
-                      </h6>
+                      <h6>Skills</h6>
                     </button>
                   </li>
 
@@ -56,12 +67,12 @@ const About = () => {
                       id="profile-tab0"
                       data-mdb-toggle="tab"
                       data-mdb-target="#profile0"
-                      type="button" 
+                      type="button"
                       role="tab"
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                     <h6>experience</h6>
+                      <h6>experience</h6>
                     </button>
                   </li>
 
@@ -103,7 +114,7 @@ const About = () => {
                     aria-labelledby="skill"
                   >
                     <div className="single-progress">
-                      <h6 className="d-flex align-items-start" >javascript</h6>
+                      <h6 className="d-flex align-items-start">javascript</h6>
                       <div className="progress">
                         <div
                           className="progress-bar"
@@ -116,7 +127,7 @@ const About = () => {
                       </div>
                       {/* <span className="label">80%</span> */}
                     </div>
-                    
+
                     <div className="single-progress">
                       <h6 className="d-flex align-items-start">c++</h6>
                       <div className="progress">
@@ -173,14 +184,7 @@ const About = () => {
                         />
                       </div>
                       {/* <span className="label">80%</span> */}
-                      
                     </div>
-                    
-                    
-
-  
-
-
                   </div>
                   <div
                     className="tab-pane fade"
@@ -188,16 +192,14 @@ const About = () => {
                     role="tabpanel"
                     aria-labelledby="profile-tab0"
                   >
-                
                     <ul className="text-start ps-0">
-                      <li> <strong>Full stack web development internship</strong> 
+                      <li>
+                        {" "}
+                        <strong>Full stack web development internship</strong>
                         <div> Digipodium , Lucknow, UP. </div>
                         07/2022-8/2022
-                    
                       </li>
-
                     </ul>
-
                   </div>
                   <div
                     className="tab-pane fade"
@@ -206,20 +208,30 @@ const About = () => {
                     aria-labelledby="contact-tab0"
                   >
                     <ul className="text-start ps-0">
-                      <li> <strong>Computer Science And Engineering(B.Tech)</strong> 
-                        <div> Rajarshi Rananjay Sinh Institute Of Management & Technology , Amethi . </div>
+                      <li>
+                        {" "}
+                        <strong>
+                          Computer Science And Engineering(B.Tech)
+                        </strong>
+                        <div>
+                          {" "}
+                          Rajarshi Rananjay Sinh Institute Of Management &
+                          Technology , Amethi .{" "}
+                        </div>
                         08/2019 – 07/2023
                       </li>
-                      <li> <strong>12th science (state board)</strong> 
-                        <div> S.V.M. INTER COLLEGE  </div>
+                      <li>
+                        {" "}
+                        <strong>12th science (state board)</strong>
+                        <div> S.V.M. INTER COLLEGE </div>
                         06/2018 – 05/2019
                       </li>
-                      <li> <strong>10th (state board)</strong> 
-                        <div> S.V.M. INTER COLLEGE  </div>
+                      <li>
+                        {" "}
+                        <strong>10th (state board)</strong>
+                        <div> S.V.M. INTER COLLEGE </div>
                         6/2016–5/2017
                       </li>
-                    
-
                     </ul>
                   </div>
                   <div
@@ -228,24 +240,22 @@ const About = () => {
                     role="tabpanel"
                     aria-labelledby="certification-tab0"
                   >
-                     <ul className="text-start ps-0">
-                      <li> <strong> Developing Cloud App with Node.js 
-                          and React- (IBM)</strong> 
-                       
+                    <ul className="text-start ps-0">
+                      <li>
+                        {" "}
+                        <strong>
+                          {" "}
+                          Developing Cloud App with Node.js and React- (IBM)
+                        </strong>
                       </li>
-                      <li> <strong>
-                          Communication– ( TCS ION)
-                          </strong> 
-                       
+                      <li>
+                        {" "}
+                        <strong>Communication– ( TCS ION)</strong>
                       </li>
-                      <li> <strong>
-                          javascript– ( UDEMY)
-                          </strong> 
-                       
+                      <li>
+                        {" "}
+                        <strong>javascript– ( UDEMY)</strong>
                       </li>
-                     
-                    
-
                     </ul>
                   </div>
                 </div>

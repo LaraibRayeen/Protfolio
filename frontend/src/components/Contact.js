@@ -8,6 +8,23 @@ export const Contact = () => {
     <section id="Contect" className="contact m-2">
   <div className="container">
     <div className="row justify-content-between align-items-center">
+
+    <div classNAme="h-50"  style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
       <div className="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
         {/* <span className="subtitle">Let's Say Hi</span> */}
         <h2>Hire Me.</h2>

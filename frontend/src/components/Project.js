@@ -6,6 +6,18 @@ export const Project = () => {
     <div className="p-5 m-5  portfolio" id="Project">
       <div className="container">
         <div className="row">
+        <div classNAme="h-50"  style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
+          <div classNAme="h-50" style={{ color:"white"}}>
+            {" "}
+            <h5> about me</h5>
+          </div>
           <div className="col-sm-12 text-center md-4">
             {/* <span className="subtitle">My Complite project</span> */}
             <h2 className="m-3"> My Latest Project </h2>
