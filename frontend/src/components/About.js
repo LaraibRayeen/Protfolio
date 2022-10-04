@@ -7,18 +7,12 @@ const About = () => {
     <section id="About" className="about_wap m-5 p-5">
       <div className="container">
         <div className="row justify-content-between align-item-center">
-          <div classNAme="h-50"  style={{ color:"white"}}>
+          <div   style={{ color:"white"}}>
             {" "}
-            <h5> about me</h5>
+            <h1> about me</h1>
+            <h1>b</h1>
           </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
+         
 
           <div className="col-lg-5 md-4 mb-lg-0">
             <img

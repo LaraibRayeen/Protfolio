@@ -8,25 +8,20 @@ export const Project = () => {
         <div className="row">
         <div classNAme="h-50"  style={{ color:"white"}}>
             {" "}
-            <h5> about me</h5>
+            <h1> about me</h1>
+            <h1> about me</h1>
           </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
+           
+         
           <div className="col-sm-12 text-center md-4">
             {/* <span className="subtitle">My Complite project</span> */}
-            <h2 className="m-3"> My Latest Project </h2>
+            <h2 className="mb-5"> My Latest Project </h2>
           </div>
           {/* style="background-image:url()" */}
         </div>
         <div className="row">
           <div className="col-lg-6 col-md-6 md-6 ">
-            <div className="card   pt-4 m4-4 ">
+            <div className="  pt-4 m4-4 ">
            <h2 className="m-3"> Team Chatting App </h2>
               <p>
                 Team chatting app is a web based application which allow

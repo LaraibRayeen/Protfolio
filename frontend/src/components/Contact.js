@@ -11,27 +11,17 @@ export const Contact = () => {
 
     <div classNAme="h-50"  style={{ color:"white"}}>
             {" "}
-            <h5> about me</h5>
+            <h1> about me</h1>
+            <h1> about me</h1>
           </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
+        
       <div className="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
         {/* <span className="subtitle">Let's Say Hi</span> */}
         <h2>Hire Me.</h2>
         <div className="row call_details mb-4">
           <label className="col-sm-3">Call us directly:</label>
           <div className="col-sm-9 mb-3 mb-lg-2">
-            <a href="javascript:void(8874468890)">8874468890</a>
+            <a href="tel:8874468890">8874468890</a>
           </div>
           <label className="col-sm-3">Contact Email:</label>
           <div className="col-sm-9 mb-3 mb-lg-2">
@@ -87,7 +77,7 @@ export const Contact = () => {
         </form>
       </div>
       <div className="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
-        <img src={contact} className="img-fluid" />
+        <img src={contact} className="img-fluid" alt='contact' />
       </div>
     </div>
   </div>

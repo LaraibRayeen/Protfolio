@@ -1,7 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-
-import logo from '../Image/undraw.png'
 const Banner = () => {
   return (
    
@@ -12,16 +10,10 @@ const Banner = () => {
     <div className="row">
     <div classNAme="h-50"  style={{ color:"white"}}>
             {" "}
-            <h5> about me</h5>
+            <h1> f</h1>
+            <h1> f</h1>
           </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
-          <div classNAme="h-50" style={{ color:"white"}}>
-            {" "}
-            <h5> about me</h5>
-          </div>
+         
           
       <div className="col  p-5  mt-5 text-center text-md-start ">
         <h5> WELCOME TO MY WORLD </h5>
