@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Protfolio/static/css/main.a573c0eb.css",
-    "main.js": "/Protfolio/static/js/main.e1e8606a.js",
-    "static/js/787.cda612ba.chunk.js": "/Protfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/chatapp.png": "/Protfolio/static/media/chatapp.622cf91d61fe960d667b.png",
-    "static/media/profile.png": "/Protfolio/static/media/profile.ca2787b20425d6f90c33.png",
-    "static/media/undraw.png": "/Protfolio/static/media/undraw.bf7e8d48a33508bff6dc.png",
-    "static/media/contact.png": "/Protfolio/static/media/contact.f6d840ac3b34dc0dd400.png",
-    "static/media/laraibLogo.jpg": "/Protfolio/static/media/laraibLogo.91d1269d6a149c58debc.jpg",
-    "index.html": "/Protfolio/index.html",
-    "main.a573c0eb.css.map": "/Protfolio/static/css/main.a573c0eb.css.map",
-    "main.e1e8606a.js.map": "/Protfolio/static/js/main.e1e8606a.js.map",
-    "787.cda612ba.chunk.js.map": "/Protfolio/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/frontend/static/css/main.b7f52e30.css",
+    "main.js": "/frontend/static/js/main.0db1ed84.js",
+    "static/js/787.cda612ba.chunk.js": "/frontend/static/js/787.cda612ba.chunk.js",
+    "static/media/chatapp.png": "/frontend/static/media/chatapp.622cf91d61fe960d667b.png",
+    "static/media/profile.png": "/frontend/static/media/profile.ca2787b20425d6f90c33.png",
+    "static/media/undraw.png": "/frontend/static/media/undraw.bf7e8d48a33508bff6dc.png",
+    "static/media/contact.png": "/frontend/static/media/contact.f6d840ac3b34dc0dd400.png",
+    "static/media/laraibLogo.jpg": "/frontend/static/media/laraibLogo.91d1269d6a149c58debc.jpg",
+    "index.html": "/frontend/index.html",
+    "main.b7f52e30.css.map": "/frontend/static/css/main.b7f52e30.css.map",
+    "main.0db1ed84.js.map": "/frontend/static/js/main.0db1ed84.js.map",
+    "787.cda612ba.chunk.js.map": "/frontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a573c0eb.css",
-    "static/js/main.e1e8606a.js"
+    "static/css/main.b7f52e30.css",
+    "static/js/main.0db1ed84.js"
   ]
 }
