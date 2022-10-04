@@ -25,7 +25,7 @@ export const Contact = () => {
           </div>
           <label className="col-sm-3">Contact Email:</label>
           <div className="col-sm-9 mb-3 mb-lg-2">
-            <a href="mailto:Laraibrayeen123@gmail.com">Laraibrayeen123@gmail.com</a>
+            <a href="mailto: 02d52bd9399476f015195cd1f0784121">Laraibrayeen123@gmail.com</a>
           </div>
         </div>
         <form action="https://formsubmit.co/laraibrayeen123@gmail.com" method="POST">
