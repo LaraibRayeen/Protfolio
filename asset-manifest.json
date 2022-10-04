@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Protfolio/static/css/main.a573c0eb.css",
+    "main.js": "/Protfolio/static/js/main.e1e8606a.js",
+    "static/js/787.cda612ba.chunk.js": "/Protfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/chatapp.png": "/Protfolio/static/media/chatapp.622cf91d61fe960d667b.png",
+    "static/media/profile.png": "/Protfolio/static/media/profile.ca2787b20425d6f90c33.png",
+    "static/media/undraw.png": "/Protfolio/static/media/undraw.bf7e8d48a33508bff6dc.png",
+    "static/media/contact.png": "/Protfolio/static/media/contact.f6d840ac3b34dc0dd400.png",
+    "static/media/laraibLogo.jpg": "/Protfolio/static/media/laraibLogo.91d1269d6a149c58debc.jpg",
+    "index.html": "/Protfolio/index.html",
+    "main.a573c0eb.css.map": "/Protfolio/static/css/main.a573c0eb.css.map",
+    "main.e1e8606a.js.map": "/Protfolio/static/js/main.e1e8606a.js.map",
+    "787.cda612ba.chunk.js.map": "/Protfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a573c0eb.css",
+    "static/js/main.e1e8606a.js"
+  ]
+}
