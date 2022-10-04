@@ -2,14 +2,16 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../Image/laraibLogo.jpg";
 const Navbar = () => {
-  let navBar = document.querySelectorAll(".nav-link");
-  let navCollapse = document.querySelector(".navbar-collapse.collapse");
-  navBar.forEach(function (a){
-      a.addEventListener("click", function(){
-          navCollapse.classList.remove("show");
-      })
-  })
+ 
    
+  let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a){
+    a.addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    })
+})
+ 
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top mb-5  bg-light">
