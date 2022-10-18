@@ -233,7 +233,7 @@ const About = () => {
                     id="certification0"
                     role="tabpanel"
                     aria-labelledby="certification-tab0"
-                  >
+                  >1
                     <ul className="text-start ps-0">
                       <li>
                         {" "}
@@ -249,6 +249,10 @@ const About = () => {
                       <li>
                         {" "}
                         <strong>javascript– ( UDEMY)</strong>
+                      </li>
+                      <li>
+                        {" "}
+                        <strong>Goofle My Business– ( Google)</strong>
                       </li>
                     </ul>
                   </div>
