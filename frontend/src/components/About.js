@@ -252,7 +252,7 @@ const About = () => {
                       </li>
                       <li>
                         {" "}
-                        <strong>Goofle My Business– ( Google)</strong>
+                        <strong>Google My Business– ( Google)</strong>
                       </li>
                     </ul>
                   </div>
